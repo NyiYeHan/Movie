@@ -10,7 +10,7 @@ import Kingfisher
 
 
 class AppCell: UICollectionViewCell {
-    
+     
     var movie : Movie?{
         didSet{
             if let name = movie?.title {
